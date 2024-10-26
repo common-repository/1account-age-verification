@@ -1,0 +1,19 @@
+{
+  "name": "1account/one-account-age-verification",
+  "description": "1account.net Age Verification.",
+  "type": "project",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "1account",
+      "email": "support@1account.net"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Oneacc\\": "./includes"
+    }
+  }
+}

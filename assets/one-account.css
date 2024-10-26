@@ -1,0 +1,43 @@
+
+
+button#removeInput {
+    background: #dc3545;
+    border: none;
+    font-size: 15px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+
+button#addInput {
+    display: block;
+    border: none;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    background: #17a2b8;
+    margin: 10px 0px;
+    color: #fff;
+}
+
+div#inputFormInput {  margin-bottom: 5px; }
+
+
+span.title_field1, span.title_field2 {
+    width: 250px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+#inputFormInput .oneacc_status, #inputFormInput .oneacc_status_validation { width: 250px; }
+
+
+.order-status.status-av_failed {  background: #eba3a3;  color: #761919;  }
+.order-status.status-av_pass {  background: #c8d7e1;  color: #2e4453; }
+.order-status.status-no_uk_user {  background: #f8dda7;  color: #94660c; }
